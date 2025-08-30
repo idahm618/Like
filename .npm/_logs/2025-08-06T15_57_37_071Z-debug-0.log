@@ -1,0 +1,75 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/espn-proxy/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install node-fetch
+8 verbose argv "install" "node-fetch"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_57_37_071Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_57_37_071Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:1044905984 maxSize:261226496 maxEntrySize:130613248
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest node-fetch@*
+16 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/node-fetch 680ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+19 silly placeDep ROOT node-fetch@3.3.2 OK for: espn-proxy@1.0.0 want: *
+20 silly fetch manifest data-uri-to-buffer@^4.0.0
+21 silly packumentCache full:https://registry.npmjs.org/data-uri-to-buffer cache-miss
+22 silly fetch manifest fetch-blob@^3.1.4
+23 silly packumentCache full:https://registry.npmjs.org/fetch-blob cache-miss
+24 silly fetch manifest formdata-polyfill@^4.0.10
+25 silly packumentCache full:https://registry.npmjs.org/formdata-polyfill cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer 281ms (cache revalidated)
+27 silly packumentCache full:https://registry.npmjs.org/data-uri-to-buffer set size:43253 disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/fetch-blob 407ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/fetch-blob set size:73704 disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/formdata-polyfill 425ms (cache revalidated)
+31 silly packumentCache full:https://registry.npmjs.org/formdata-polyfill set size:94446 disposed:false
+32 silly placeDep ROOT data-uri-to-buffer@4.0.1 OK for: node-fetch@3.3.2 want: ^4.0.0
+33 silly placeDep ROOT fetch-blob@3.2.0 OK for: node-fetch@3.3.2 want: ^3.1.4
+34 silly placeDep ROOT formdata-polyfill@4.0.10 OK for: node-fetch@3.3.2 want: ^4.0.10
+35 silly fetch manifest node-domexception@^1.0.0
+36 silly packumentCache full:https://registry.npmjs.org/node-domexception cache-miss
+37 silly fetch manifest web-streams-polyfill@^3.0.3
+38 silly packumentCache full:https://registry.npmjs.org/web-streams-polyfill cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill 86ms (cache revalidated)
+40 silly packumentCache full:https://registry.npmjs.org/web-streams-polyfill set size:130524 disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/node-domexception 270ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/node-domexception set size:11516 disposed:false
+43 silly placeDep ROOT node-domexception@1.0.0 OK for: fetch-blob@3.2.0 want: ^1.0.0
+44 silly placeDep ROOT web-streams-polyfill@3.3.3 OK for: fetch-blob@3.2.0 want: ^3.0.3
+45 silly reify moves {}
+46 silly audit bulk request {
+46 silly audit   'node-fetch': [ '3.3.2' ],
+46 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+46 silly audit   'fetch-blob': [ '3.2.0' ],
+46 silly audit   'formdata-polyfill': [ '4.0.10' ],
+46 silly audit   'node-domexception': [ '1.0.0' ],
+46 silly audit   'web-streams-polyfill': [ '3.3.3' ]
+46 silly audit }
+47 http cache web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 0ms (cache hit)
+48 http cache node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+49 http cache formdata-polyfill@https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 0ms (cache hit)
+50 http cache fetch-blob@https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz 0ms (cache hit)
+51 http cache data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 0ms (cache hit)
+52 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz 0ms (cache hit)
+53 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 502ms
+55 silly audit report {}
+56 silly ADD node_modules/web-streams-polyfill
+57 silly ADD node_modules/node-domexception
+58 silly ADD node_modules/formdata-polyfill
+59 silly ADD node_modules/fetch-blob
+60 silly ADD node_modules/data-uri-to-buffer
+61 silly ADD node_modules/node-fetch
+62 verbose cwd /data/data/com.termux/files/home/espn-proxy
+63 verbose os Linux 5.15.149-android13-8-28783478-abA057FXXU8CYC6
+64 verbose node v24.5.0
+65 verbose npm  v11.5.1
+66 verbose exit 0
+67 info ok

@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+cd /storage/emulated/0/Download
+nohup python3 -m http.server 8082 > /dev/null 2>&1 &
+chmod +x ~/.termux/boot/start-server.sh
+
+

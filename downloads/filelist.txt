@@ -1,0 +1,4 @@
+./Python-3.13.3.tgz
+./cleaned_logos.zip
+./team-logos-hosting.zip
+./filelist.txt

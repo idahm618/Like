@@ -1,0 +1,426 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install axios cheerio
+7 verbose argv "install" "axios" "cheerio"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-03T10_18_30_160Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-03T10_18_30_160Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:969408512 maxSize:242352128 maxEntrySize:121176064
+12 silly idealTree buildDeps
+13 silly fetch manifest axios@*
+14 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/axios 584ms (cache updated)
+16 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+17 silly fetch manifest cheerio@*
+18 silly packumentCache full:https://registry.npmjs.org/cheerio cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/cheerio 474ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/cheerio set size:undefined disposed:false
+21 silly placeDep ROOT axios@1.11.0 OK for: home@1.0.0 want: *
+22 silly placeDep ROOT cheerio@1.1.2 OK for: home@1.0.0 want: *
+23 silly fetch manifest follow-redirects@^1.15.6
+24 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+25 silly fetch manifest form-data@^4.0.4
+26 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+27 silly fetch manifest proxy-from-env@^1.1.0
+28 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+29 silly fetch manifest cheerio-select@^2.1.0
+30 silly packumentCache full:https://registry.npmjs.org/cheerio-select cache-miss
+31 silly fetch manifest dom-serializer@^2.0.0
+32 silly packumentCache full:https://registry.npmjs.org/dom-serializer cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/form-data 321ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/form-data set size:undefined disposed:false
+35 silly fetch manifest domhandler@^5.0.3
+36 silly packumentCache full:https://registry.npmjs.org/domhandler cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/cheerio-select 455ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/cheerio-select set size:undefined disposed:false
+39 silly fetch manifest domutils@^3.2.2
+40 silly packumentCache full:https://registry.npmjs.org/domutils cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/dom-serializer 472ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/dom-serializer set size:undefined disposed:false
+43 silly fetch manifest encoding-sniffer@^0.2.1
+44 silly packumentCache full:https://registry.npmjs.org/encoding-sniffer cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/follow-redirects 509ms (cache updated)
+46 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+47 silly fetch manifest htmlparser2@^10.0.0
+48 silly packumentCache full:https://registry.npmjs.org/htmlparser2 cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 520ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:undefined disposed:false
+51 silly fetch manifest parse5@^7.3.0
+52 silly packumentCache full:https://registry.npmjs.org/parse5 cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/domhandler 303ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/domhandler set size:undefined disposed:false
+55 silly fetch manifest parse5-htmlparser2-tree-adapter@^7.1.0
+56 silly packumentCache full:https://registry.npmjs.org/parse5-htmlparser2-tree-adapter cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/domutils 323ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/domutils set size:undefined disposed:false
+59 silly fetch manifest parse5-parser-stream@^7.1.2
+60 silly packumentCache full:https://registry.npmjs.org/parse5-parser-stream cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/encoding-sniffer 350ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/encoding-sniffer set size:undefined disposed:false
+63 silly fetch manifest undici@^7.12.0
+64 silly packumentCache full:https://registry.npmjs.org/undici cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/htmlparser2 332ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/htmlparser2 set size:undefined disposed:false
+67 silly fetch manifest whatwg-mimetype@^4.0.0
+68 silly packumentCache full:https://registry.npmjs.org/whatwg-mimetype cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/parse5 343ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/parse5 set size:undefined disposed:false
+71 http fetch GET 200 https://registry.npmjs.org/parse5-htmlparser2-tree-adapter 282ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/parse5-htmlparser2-tree-adapter set size:undefined disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/parse5-parser-stream 300ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/parse5-parser-stream set size:undefined disposed:false
+75 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype 280ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/whatwg-mimetype set size:undefined disposed:false
+77 http fetch GET 200 https://registry.npmjs.org/undici 331ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/undici set size:undefined disposed:false
+79 silly placeDep ROOT follow-redirects@1.15.11 OK for: axios@1.11.0 want: ^1.15.6
+80 silly placeDep ROOT form-data@4.0.4 OK for: axios@1.11.0 want: ^4.0.4
+81 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.11.0 want: ^1.1.0
+82 silly fetch manifest asynckit@^0.4.0
+83 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+84 silly fetch manifest mime-types@^2.1.12
+85 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+86 silly fetch manifest combined-stream@^1.0.8
+87 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+88 silly fetch manifest es-set-tostringtag@^2.1.0
+89 silly packumentCache full:https://registry.npmjs.org/es-set-tostringtag cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/mime-types 112ms (cache revalidated)
+91 silly packumentCache full:https://registry.npmjs.org/mime-types set size:136716 disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/asynckit 306ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/asynckit set size:undefined disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 306ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/es-set-tostringtag set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/combined-stream 660ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:undefined disposed:false
+98 silly placeDep ROOT cheerio-select@2.1.0 OK for: cheerio@1.1.2 want: ^2.1.0
+99 silly placeDep ROOT dom-serializer@2.0.0 OK for: cheerio@1.1.2 want: ^2.0.0
+100 silly placeDep ROOT domhandler@5.0.3 OK for: cheerio@1.1.2 want: ^5.0.3
+101 silly placeDep ROOT domutils@3.2.2 OK for: cheerio@1.1.2 want: ^3.2.2
+102 silly placeDep ROOT encoding-sniffer@0.2.1 OK for: cheerio@1.1.2 want: ^0.2.1
+103 silly placeDep ROOT htmlparser2@10.0.0 OK for: cheerio@1.1.2 want: ^10.0.0
+104 silly placeDep ROOT parse5@7.3.0 OK for: cheerio@1.1.2 want: ^7.3.0
+105 silly placeDep ROOT parse5-htmlparser2-tree-adapter@7.1.0 OK for: cheerio@1.1.2 want: ^7.1.0
+106 silly placeDep ROOT parse5-parser-stream@7.1.2 OK for: cheerio@1.1.2 want: ^7.1.2
+107 silly placeDep ROOT undici@7.13.0 OK for: cheerio@1.1.2 want: ^7.12.0
+108 silly placeDep ROOT whatwg-mimetype@4.0.0 OK for: cheerio@1.1.2 want: ^4.0.0
+109 silly fetch manifest boolbase@^1.0.0
+110 silly packumentCache full:https://registry.npmjs.org/boolbase cache-miss
+111 silly fetch manifest css-select@^5.1.0
+112 silly packumentCache full:https://registry.npmjs.org/css-select cache-miss
+113 silly fetch manifest css-what@^6.1.0
+114 silly packumentCache full:https://registry.npmjs.org/css-what cache-miss
+115 silly fetch manifest domelementtype@^2.3.0
+116 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-miss
+117 silly fetch manifest domutils@^3.0.1
+118 silly packumentCache full:https://registry.npmjs.org/domutils cache-miss
+119 http cache https://registry.npmjs.org/domutils 20ms (cache hit)
+120 silly packumentCache full:https://registry.npmjs.org/domutils set size:102774 disposed:false
+121 silly fetch manifest domelementtype@^2.3.0
+122 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/domelementtype 301ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/domelementtype set size:undefined disposed:false
+125 silly fetch manifest domhandler@^5.0.2
+126 silly packumentCache full:https://registry.npmjs.org/domhandler cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/boolbase 309ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/boolbase set size:undefined disposed:false
+129 silly fetch manifest entities@^4.2.0
+130 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/domelementtype 282ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/domelementtype set size:undefined disposed:false
+133 silly fetch manifest whatwg-encoding@^3.1.1
+134 silly packumentCache full:https://registry.npmjs.org/whatwg-encoding cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/css-what 320ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/css-what set size:undefined disposed:false
+137 silly fetch manifest entities@^6.0.0
+138 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+139 http cache https://registry.npmjs.org/domhandler 31ms (cache hit)
+140 silly packumentCache full:https://registry.npmjs.org/domhandler set size:73302 disposed:false
+141 silly fetch manifest entities@^6.0.0
+142 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding 324ms (cache miss)
+144 silly packumentCache full:https://registry.npmjs.org/whatwg-encoding set size:undefined disposed:false
+145 http fetch GET 200 https://registry.npmjs.org/entities 318ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/entities set size:undefined disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/entities 344ms (cache miss)
+148 silly packumentCache full:https://registry.npmjs.org/entities set size:undefined disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/entities 320ms (cache miss)
+150 silly packumentCache full:https://registry.npmjs.org/entities set size:undefined disposed:false
+151 http fetch GET 200 https://registry.npmjs.org/css-select 849ms (cache miss)
+152 silly packumentCache full:https://registry.npmjs.org/css-select set size:undefined disposed:false
+153 silly placeDep ROOT boolbase@1.0.0 OK for: cheerio-select@2.1.0 want: ^1.0.0
+154 silly placeDep ROOT css-select@5.2.2 OK for: cheerio-select@2.1.0 want: ^5.1.0
+155 silly placeDep ROOT css-what@6.2.2 OK for: cheerio-select@2.1.0 want: ^6.1.0
+156 silly placeDep ROOT domelementtype@2.3.0 OK for: cheerio-select@2.1.0 want: ^2.3.0
+157 silly fetch manifest nth-check@^2.0.1
+158 silly packumentCache full:https://registry.npmjs.org/nth-check cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/nth-check 277ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/nth-check set size:undefined disposed:false
+161 silly placeDep ROOT nth-check@2.1.1 OK for: css-select@5.2.2 want: ^2.0.1
+162 silly placeDep ROOT entities@4.5.0 OK for: dom-serializer@2.0.0 want: ^4.2.0
+163 silly placeDep ROOT whatwg-encoding@3.1.1 OK for: encoding-sniffer@0.2.1 want: ^3.1.1
+164 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.4 want: ^0.4.0
+165 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.4 want: ^1.0.8
+166 silly placeDep ROOT es-set-tostringtag@2.1.0 OK for: form-data@4.0.4 want: ^2.1.0
+167 silly placeDep node_modules/form-data mime-types@2.1.35 OK for: form-data@4.0.4 want: ^2.1.12
+168 silly fetch manifest delayed-stream@~1.0.0
+169 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+170 silly fetch manifest has-tostringtag@^1.0.2
+171 silly packumentCache full:https://registry.npmjs.org/has-tostringtag cache-miss
+172 silly fetch manifest mime-db@1.52.0
+173 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/mime-db 79ms (cache revalidated)
+175 silly packumentCache full:https://registry.npmjs.org/mime-db set size:164953 disposed:false
+176 http fetch GET 200 https://registry.npmjs.org/delayed-stream 688ms (cache miss)
+177 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:undefined disposed:false
+178 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 867ms (cache miss)
+179 silly packumentCache full:https://registry.npmjs.org/has-tostringtag set size:undefined disposed:false
+180 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+181 silly placeDep ROOT has-tostringtag@1.0.2 OK for: es-set-tostringtag@2.1.0 want: ^1.0.2
+182 silly placeDep node_modules/htmlparser2 entities@6.0.1 OK for: htmlparser2@10.0.0 want: ^6.0.0
+183 silly placeDep node_modules/parse5 entities@6.0.1 OK for: parse5@7.3.0 want: ^6.0.0
+184 silly placeDep node_modules/form-data mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+185 silly reify moves {}
+186 silly audit bulk request {
+186 silly audit   accepts: [ '2.0.0' ],
+186 silly audit   'body-parser': [ '2.2.0' ],
+186 silly audit   bytes: [ '3.1.2' ],
+186 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+186 silly audit   'call-bound': [ '1.0.4' ],
+186 silly audit   'content-disposition': [ '1.0.0' ],
+186 silly audit   'content-type': [ '1.0.5' ],
+186 silly audit   cookie: [ '0.7.2' ],
+186 silly audit   'cookie-signature': [ '1.2.2' ],
+186 silly audit   cors: [ '2.8.5' ],
+186 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+186 silly audit   debug: [ '4.4.1' ],
+186 silly audit   depd: [ '2.0.0' ],
+186 silly audit   'dunder-proto': [ '1.0.1' ],
+186 silly audit   'ee-first': [ '1.1.1' ],
+186 silly audit   encodeurl: [ '2.0.0' ],
+186 silly audit   'es-define-property': [ '1.0.1' ],
+186 silly audit   'es-errors': [ '1.3.0' ],
+186 silly audit   'es-object-atoms': [ '1.1.1' ],
+186 silly audit   'escape-html': [ '1.0.3' ],
+186 silly audit   etag: [ '1.8.1' ],
+186 silly audit   express: [ '5.1.0' ],
+186 silly audit   'fetch-blob': [ '3.2.0' ],
+186 silly audit   finalhandler: [ '2.1.0' ],
+186 silly audit   'formdata-polyfill': [ '4.0.10' ],
+186 silly audit   forwarded: [ '0.2.0' ],
+186 silly audit   fresh: [ '2.0.0' ],
+186 silly audit   'function-bind': [ '1.1.2' ],
+186 silly audit   'get-intrinsic': [ '1.3.0' ],
+186 silly audit   'get-proto': [ '1.0.1' ],
+186 silly audit   gopd: [ '1.2.0' ],
+186 silly audit   'has-symbols': [ '1.1.0' ],
+186 silly audit   hasown: [ '2.0.2' ],
+186 silly audit   'http-errors': [ '2.0.0' ],
+186 silly audit   'iconv-lite': [ '0.6.3' ],
+186 silly audit   inherits: [ '2.0.4' ],
+186 silly audit   'ipaddr.js': [ '1.9.1' ],
+186 silly audit   'is-promise': [ '4.0.0' ],
+186 silly audit   'math-intrinsics': [ '1.1.0' ],
+186 silly audit   'media-typer': [ '1.1.0' ],
+186 silly audit   'merge-descriptors': [ '2.0.0' ],
+186 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+186 silly audit   'mime-types': [ '3.0.1', '2.1.35' ],
+186 silly audit   ms: [ '2.1.3' ],
+186 silly audit   negotiator: [ '1.0.0' ],
+186 silly audit   'node-domexception': [ '1.0.0' ],
+186 silly audit   'node-fetch': [ '3.3.2' ],
+186 silly audit   'object-assign': [ '4.1.1' ],
+186 silly audit   'object-inspect': [ '1.13.4' ],
+186 silly audit   'on-finished': [ '2.4.1' ],
+186 silly audit   once: [ '1.4.0' ],
+186 silly audit   parseurl: [ '1.3.3' ],
+186 silly audit   'path-to-regexp': [ '8.2.0' ],
+186 silly audit   'proxy-addr': [ '2.0.7' ],
+186 silly audit   qs: [ '6.14.0' ],
+186 silly audit   'range-parser': [ '1.2.1' ],
+186 silly audit   'raw-body': [ '3.0.0' ],
+186 silly audit   router: [ '2.2.0' ],
+186 silly audit   'safe-buffer': [ '5.2.1' ],
+186 silly audit   'safer-buffer': [ '2.1.2' ],
+186 silly audit   send: [ '1.2.0' ],
+186 silly audit   'serve-static': [ '2.2.0' ],
+186 silly audit   setprototypeof: [ '1.2.0' ],
+186 silly audit   'side-channel': [ '1.1.0' ],
+186 silly audit   'side-channel-list': [ '1.0.0' ],
+186 silly audit   'side-channel-map': [ '1.0.1' ],
+186 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+186 silly audit   statuses: [ '2.0.1' ],
+186 silly audit   toidentifier: [ '1.0.1' ],
+186 silly audit   'type-is': [ '2.0.1' ],
+186 silly audit   unpipe: [ '1.0.0' ],
+186 silly audit   vary: [ '1.1.2' ],
+186 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+186 silly audit   wrappy: [ '1.0.2' ],
+186 silly audit   axios: [ '1.11.0' ],
+186 silly audit   cheerio: [ '1.1.2' ],
+186 silly audit   'follow-redirects': [ '1.15.11' ],
+186 silly audit   'form-data': [ '4.0.4' ],
+186 silly audit   'proxy-from-env': [ '1.1.0' ],
+186 silly audit   'cheerio-select': [ '2.1.0' ],
+186 silly audit   'dom-serializer': [ '2.0.0' ],
+186 silly audit   domhandler: [ '5.0.3' ],
+186 silly audit   domutils: [ '3.2.2' ],
+186 silly audit   'encoding-sniffer': [ '0.2.1' ],
+186 silly audit   htmlparser2: [ '10.0.0' ],
+186 silly audit   parse5: [ '7.3.0' ],
+186 silly audit   'parse5-htmlparser2-tree-adapter': [ '7.1.0' ],
+186 silly audit   'parse5-parser-stream': [ '7.1.2' ],
+186 silly audit   undici: [ '7.13.0' ],
+186 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+186 silly audit   boolbase: [ '1.0.0' ],
+186 silly audit   'css-select': [ '5.2.2' ],
+186 silly audit   'css-what': [ '6.2.2' ],
+186 silly audit   domelementtype: [ '2.3.0' ],
+186 silly audit   'nth-check': [ '2.1.1' ],
+186 silly audit   entities: [ '4.5.0', '6.0.1' ],
+186 silly audit   'whatwg-encoding': [ '3.1.1' ],
+186 silly audit   asynckit: [ '0.4.0' ],
+186 silly audit   'combined-stream': [ '1.0.8' ],
+186 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+186 silly audit   'delayed-stream': [ '1.0.0' ],
+186 silly audit   'has-tostringtag': [ '1.0.2' ]
+186 silly audit }
+187 http cache has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+188 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+189 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+190 http cache es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+191 http cache whatwg-encoding@https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz 0ms (cache hit)
+192 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+193 http cache entities@https://registry.npmjs.org/entities/-/entities-4.5.0.tgz 0ms (cache hit)
+194 http cache nth-check@https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz 0ms (cache hit)
+195 http cache domelementtype@https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz 0ms (cache hit)
+196 http cache css-what@https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz 0ms (cache hit)
+197 http cache css-select@https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz 0ms (cache hit)
+198 http cache boolbase@https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz 0ms (cache hit)
+199 http cache whatwg-mimetype@https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz 0ms (cache hit)
+200 http cache undici@https://registry.npmjs.org/undici/-/undici-7.13.0.tgz 0ms (cache hit)
+201 http cache parse5-parser-stream@https://registry.npmjs.org/parse5-parser-stream/-/parse5-parser-stream-7.1.2.tgz 0ms (cache hit)
+202 http cache parse5@https://registry.npmjs.org/parse5/-/parse5-7.3.0.tgz 0ms (cache hit)
+203 http cache htmlparser2@https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.0.0.tgz 0ms (cache hit)
+204 http cache encoding-sniffer@https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.1.tgz 0ms (cache hit)
+205 http cache domutils@https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz 0ms (cache hit)
+206 http cache domhandler@https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz 0ms (cache hit)
+207 http cache dom-serializer@https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz 0ms (cache hit)
+208 http cache cheerio-select@https://registry.npmjs.org/cheerio-select/-/cheerio-select-2.1.0.tgz 0ms (cache hit)
+209 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz 0ms (cache hit)
+210 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+211 http cache cheerio@https://registry.npmjs.org/cheerio/-/cheerio-1.1.2.tgz 0ms (cache hit)
+212 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 0ms (cache hit)
+213 http cache axios@https://registry.npmjs.org/axios/-/axios-1.11.0.tgz 0ms (cache hit)
+214 http cache entities@https://registry.npmjs.org/entities/-/entities-6.0.1.tgz 0ms (cache hit)
+215 http cache entities@https://registry.npmjs.org/entities/-/entities-6.0.1.tgz 0ms (cache hit)
+216 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+217 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+218 http cache parse5-htmlparser2-tree-adapter@https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-7.1.0.tgz 0ms (cache hit)
+219 silly tarball no local data for has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+220 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+221 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+222 silly tarball no local data for es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz. Extracting by manifest.
+223 silly tarball no local data for whatwg-encoding@https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz. Extracting by manifest.
+224 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+225 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-4.5.0.tgz. Extracting by manifest.
+226 silly tarball no local data for nth-check@https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz. Extracting by manifest.
+227 silly tarball no local data for domelementtype@https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz. Extracting by manifest.
+228 silly tarball no local data for css-what@https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz. Extracting by manifest.
+229 silly tarball no local data for css-select@https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz. Extracting by manifest.
+230 silly tarball no local data for boolbase@https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz. Extracting by manifest.
+231 silly tarball no local data for whatwg-mimetype@https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz. Extracting by manifest.
+232 silly tarball no local data for parse5-parser-stream@https://registry.npmjs.org/parse5-parser-stream/-/parse5-parser-stream-7.1.2.tgz. Extracting by manifest.
+233 silly tarball no local data for parse5@https://registry.npmjs.org/parse5/-/parse5-7.3.0.tgz. Extracting by manifest.
+234 silly tarball no local data for encoding-sniffer@https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.1.tgz. Extracting by manifest.
+235 silly tarball no local data for domutils@https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz. Extracting by manifest.
+236 silly tarball no local data for undici@https://registry.npmjs.org/undici/-/undici-7.13.0.tgz. Extracting by manifest.
+237 silly tarball no local data for cheerio-select@https://registry.npmjs.org/cheerio-select/-/cheerio-select-2.1.0.tgz. Extracting by manifest.
+238 silly tarball no local data for domhandler@https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz. Extracting by manifest.
+239 silly tarball no local data for htmlparser2@https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.0.0.tgz. Extracting by manifest.
+240 silly tarball no local data for dom-serializer@https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz. Extracting by manifest.
+241 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz. Extracting by manifest.
+242 silly tarball no local data for cheerio@https://registry.npmjs.org/cheerio/-/cheerio-1.1.2.tgz. Extracting by manifest.
+243 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+244 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.11.0.tgz. Extracting by manifest.
+245 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz. Extracting by manifest.
+246 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-6.0.1.tgz. Extracting by manifest.
+247 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-6.0.1.tgz. Extracting by manifest.
+248 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+249 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+250 silly tarball no local data for parse5-htmlparser2-tree-adapter@https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-7.1.0.tgz. Extracting by manifest.
+251 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 651ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 669ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 737ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 799ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/cheerio-select/-/cheerio-select-2.1.0.tgz 806ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz 829ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz 862ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz 862ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 862ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 862ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz 894ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz 908ms (cache miss)
+263 http fetch GET 200 https://registry.npmjs.org/parse5-parser-stream/-/parse5-parser-stream-7.1.2.tgz 898ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-7.1.0.tgz 913ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 979ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz 970ms (cache miss)
+267 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 960ms (cache miss)
+268 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz 1002ms (cache miss)
+269 http fetch GET 200 https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.1.tgz 1030ms (cache miss)
+270 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 1038ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz 1080ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz 1082ms (cache miss)
+273 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1409ms
+274 silly audit report {}
+275 http fetch GET 200 https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz 1383ms (cache miss)
+276 http fetch GET 200 https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.0.0.tgz 1596ms (cache miss)
+277 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-4.5.0.tgz 1859ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/parse5/-/parse5-7.3.0.tgz 1928ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-6.0.1.tgz 1914ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-6.0.1.tgz 1972ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz 1996ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.11.0.tgz 2390ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-7.13.0.tgz 2623ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/cheerio/-/cheerio-1.1.2.tgz 2654ms (cache miss)
+285 silly ADD node_modules/has-tostringtag
+286 silly ADD node_modules/delayed-stream
+287 silly ADD node_modules/es-set-tostringtag
+288 silly ADD node_modules/combined-stream
+289 silly ADD node_modules/asynckit
+290 silly ADD node_modules/whatwg-encoding
+291 silly ADD node_modules/entities
+292 silly ADD node_modules/nth-check
+293 silly ADD node_modules/domelementtype
+294 silly ADD node_modules/css-what
+295 silly ADD node_modules/css-select
+296 silly ADD node_modules/boolbase
+297 silly ADD node_modules/whatwg-mimetype
+298 silly ADD node_modules/undici
+299 silly ADD node_modules/parse5-parser-stream
+300 silly ADD node_modules/parse5-htmlparser2-tree-adapter
+301 silly ADD node_modules/parse5
+302 silly ADD node_modules/parse5/node_modules/entities
+303 silly ADD node_modules/htmlparser2
+304 silly ADD node_modules/htmlparser2/node_modules/entities
+305 silly ADD node_modules/encoding-sniffer
+306 silly ADD node_modules/domutils
+307 silly ADD node_modules/domhandler
+308 silly ADD node_modules/dom-serializer
+309 silly ADD node_modules/cheerio-select
+310 silly ADD node_modules/proxy-from-env
+311 silly ADD node_modules/form-data
+312 silly ADD node_modules/form-data/node_modules/mime-db
+313 silly ADD node_modules/form-data/node_modules/mime-types
+314 silly ADD node_modules/follow-redirects
+315 silly ADD node_modules/cheerio
+316 silly ADD node_modules/axios
+317 verbose cwd /data/data/com.termux/files/home
+318 verbose os Linux 5.15.149-android13-8-28783478-abA057FXXU8CYC6
+319 verbose node v23.11.1
+320 verbose npm  v10.9.2
+321 verbose exit 0
+322 info ok

@@ -1,0 +1,179 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install node-fetch@2
+7 verbose argv "install" "node-fetch@2"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-08T21_33_30_794Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-08T21_33_30_794Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1044905984 maxSize:261226496 maxEntrySize:130613248
+13 silly idealTree buildDeps
+14 silly fetch manifest node-fetch@2
+15 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/node-fetch 936ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+18 silly fetch manifest encoding@^0.1.0
+19 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/encoding 296ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/encoding set size:17833 disposed:false
+22 silly placeDep ROOT node-fetch@2.7.0 REPLACE for: home@1.0.0 want: 2
+23 silly fetch manifest whatwg-url@^5.0.0
+24 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/whatwg-url 328ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:160604 disposed:false
+27 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+28 silly fetch manifest tr46@~0.0.3
+29 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+30 silly fetch manifest webidl-conversions@^3.0.0
+31 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 286ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:41857 disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/tr46 422ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/tr46 set size:45265 disposed:false
+36 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+37 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+38 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/data-uri-to-buffer' ]
+39 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fetch-blob' ]
+40 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/formdata-polyfill' ]
+41 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/node-domexception' ]
+42 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/node-fetch' ]
+43 silly reify mark retired [
+43 silly reify   '/data/data/com.termux/files/home/node_modules/web-streams-polyfill'
+43 silly reify ]
+44 silly reify moves {
+44 silly reify   '/data/data/com.termux/files/home/node_modules/data-uri-to-buffer': '/data/data/com.termux/files/home/node_modules/.data-uri-to-buffer-dUQ0q4XN',
+44 silly reify   '/data/data/com.termux/files/home/node_modules/fetch-blob': '/data/data/com.termux/files/home/node_modules/.fetch-blob-B1tCqrOh',
+44 silly reify   '/data/data/com.termux/files/home/node_modules/formdata-polyfill': '/data/data/com.termux/files/home/node_modules/.formdata-polyfill-vsPV3vEd',
+44 silly reify   '/data/data/com.termux/files/home/node_modules/node-domexception': '/data/data/com.termux/files/home/node_modules/.node-domexception-Azhw1buK',
+44 silly reify   '/data/data/com.termux/files/home/node_modules/node-fetch': '/data/data/com.termux/files/home/node_modules/.node-fetch-AhwkFq0N',
+44 silly reify   '/data/data/com.termux/files/home/node_modules/web-streams-polyfill': '/data/data/com.termux/files/home/node_modules/.web-streams-polyfill-bugsusaJ'
+44 silly reify }
+45 silly audit bulk request {
+45 silly audit   accepts: [ '2.0.0' ],
+45 silly audit   asynckit: [ '0.4.0' ],
+45 silly audit   axios: [ '1.11.0' ],
+45 silly audit   'body-parser': [ '2.2.0' ],
+45 silly audit   boolbase: [ '1.0.0' ],
+45 silly audit   bytes: [ '3.1.2' ],
+45 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+45 silly audit   'call-bound': [ '1.0.4' ],
+45 silly audit   cheerio: [ '1.1.2' ],
+45 silly audit   'cheerio-select': [ '2.1.0' ],
+45 silly audit   'combined-stream': [ '1.0.8' ],
+45 silly audit   'content-disposition': [ '1.0.0' ],
+45 silly audit   'content-type': [ '1.0.5' ],
+45 silly audit   cookie: [ '0.7.2' ],
+45 silly audit   'cookie-signature': [ '1.2.2' ],
+45 silly audit   cors: [ '2.8.5' ],
+45 silly audit   'css-select': [ '5.2.2' ],
+45 silly audit   'css-what': [ '6.2.2' ],
+45 silly audit   debug: [ '4.4.1' ],
+45 silly audit   'delayed-stream': [ '1.0.0' ],
+45 silly audit   depd: [ '2.0.0' ],
+45 silly audit   'dom-serializer': [ '2.0.0' ],
+45 silly audit   domelementtype: [ '2.3.0' ],
+45 silly audit   domhandler: [ '5.0.3' ],
+45 silly audit   domutils: [ '3.2.2' ],
+45 silly audit   'dunder-proto': [ '1.0.1' ],
+45 silly audit   'ee-first': [ '1.1.1' ],
+45 silly audit   encodeurl: [ '2.0.0' ],
+45 silly audit   'encoding-sniffer': [ '0.2.1' ],
+45 silly audit   entities: [ '4.5.0', '6.0.1' ],
+45 silly audit   'es-define-property': [ '1.0.1' ],
+45 silly audit   'es-errors': [ '1.3.0' ],
+45 silly audit   'es-object-atoms': [ '1.1.1' ],
+45 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+45 silly audit   'escape-html': [ '1.0.3' ],
+45 silly audit   etag: [ '1.8.1' ],
+45 silly audit   express: [ '5.1.0' ],
+45 silly audit   finalhandler: [ '2.1.0' ],
+45 silly audit   'follow-redirects': [ '1.15.11' ],
+45 silly audit   'form-data': [ '4.0.4' ],
+45 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+45 silly audit   'mime-types': [ '2.1.35', '3.0.1' ],
+45 silly audit   forwarded: [ '0.2.0' ],
+45 silly audit   fresh: [ '2.0.0' ],
+45 silly audit   'function-bind': [ '1.1.2' ],
+45 silly audit   'get-intrinsic': [ '1.3.0' ],
+45 silly audit   'get-proto': [ '1.0.1' ],
+45 silly audit   gopd: [ '1.2.0' ],
+45 silly audit   'has-symbols': [ '1.1.0' ],
+45 silly audit   'has-tostringtag': [ '1.0.2' ],
+45 silly audit   hasown: [ '2.0.2' ],
+45 silly audit   htmlparser2: [ '10.0.0' ],
+45 silly audit   'http-errors': [ '2.0.0' ],
+45 silly audit   'iconv-lite': [ '0.6.3' ],
+45 silly audit   inherits: [ '2.0.4' ],
+45 silly audit   'ipaddr.js': [ '1.9.1' ],
+45 silly audit   'is-promise': [ '4.0.0' ],
+45 silly audit   'math-intrinsics': [ '1.1.0' ],
+45 silly audit   'media-typer': [ '1.1.0' ],
+45 silly audit   'merge-descriptors': [ '2.0.0' ],
+45 silly audit   ms: [ '2.1.3' ],
+45 silly audit   negotiator: [ '1.0.0' ],
+45 silly audit   'nth-check': [ '2.1.1' ],
+45 silly audit   'object-assign': [ '4.1.1' ],
+45 silly audit   'object-inspect': [ '1.13.4' ],
+45 silly audit   'on-finished': [ '2.4.1' ],
+45 silly audit   once: [ '1.4.0' ],
+45 silly audit   parse5: [ '7.3.0' ],
+45 silly audit   'parse5-htmlparser2-tree-adapter': [ '7.1.0' ],
+45 silly audit   'parse5-parser-stream': [ '7.1.2' ],
+45 silly audit   parseurl: [ '1.3.3' ],
+45 silly audit   'path-to-regexp': [ '8.2.0' ],
+45 silly audit   'proxy-addr': [ '2.0.7' ],
+45 silly audit   'proxy-from-env': [ '1.1.0' ],
+45 silly audit   qs: [ '6.14.0' ],
+45 silly audit   'range-parser': [ '1.2.1' ],
+45 silly audit   'raw-body': [ '3.0.0' ],
+45 silly audit   router: [ '2.2.0' ],
+45 silly audit   'safe-buffer': [ '5.2.1' ],
+45 silly audit   'safer-buffer': [ '2.1.2' ],
+45 silly audit   send: [ '1.2.0' ],
+45 silly audit   'serve-static': [ '2.2.0' ],
+45 silly audit   setprototypeof: [ '1.2.0' ],
+45 silly audit   'side-channel': [ '1.1.0' ],
+45 silly audit   'side-channel-list': [ '1.0.0' ],
+45 silly audit   'side-channel-map': [ '1.0.1' ],
+45 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+45 silly audit   statuses: [ '2.0.1' ],
+45 silly audit   toidentifier: [ '1.0.1' ],
+45 silly audit   'type-is': [ '2.0.1' ],
+45 silly audit   undici: [ '7.13.0' ],
+45 silly audit   unpipe: [ '1.0.0' ],
+45 silly audit   vary: [ '1.1.2' ],
+45 silly audit   'whatwg-encoding': [ '3.1.1' ],
+45 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+45 silly audit   wrappy: [ '1.0.2' ],
+45 silly audit   'node-fetch': [ '2.7.0' ],
+45 silly audit   'whatwg-url': [ '5.0.0' ],
+45 silly audit   tr46: [ '0.0.3' ],
+45 silly audit   'webidl-conversions': [ '3.0.1' ]
+45 silly audit }
+46 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 1ms (cache hit)
+47 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 0ms (cache hit)
+48 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+49 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+50 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz. Extracting by manifest.
+51 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 161ms (cache miss)
+52 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1395ms
+53 silly audit report {}
+54 silly ADD node_modules/webidl-conversions
+55 silly ADD node_modules/tr46
+56 silly ADD node_modules/whatwg-url
+57 silly REMOVE node_modules/web-streams-polyfill
+58 silly CHANGE node_modules/node-fetch
+59 silly REMOVE node_modules/node-domexception
+60 silly REMOVE node_modules/formdata-polyfill
+61 silly REMOVE node_modules/fetch-blob
+62 silly REMOVE node_modules/data-uri-to-buffer
+63 verbose cwd /data/data/com.termux/files/home
+64 verbose os Linux 5.15.149-android13-8-28783478-abA057FXXU8CYC6
+65 verbose node v24.5.0
+66 verbose npm  v11.5.1
+67 verbose exit 0
+68 info ok
